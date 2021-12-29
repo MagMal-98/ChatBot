@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ChatBot</string>
+    <string name="Polski">Polski</string>
+    <string name="English">English</string>
+    <string name="send">Send</string>
+    <string name="type_a_message">Type a message...</string>
+    <string name="language">Language</string>
+    <string name="welcome">Hello! I am Charlotte the Chatbot, how may I help?</string>
+</resources>

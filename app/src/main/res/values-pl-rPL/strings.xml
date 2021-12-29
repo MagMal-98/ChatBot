@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ChatBot</string>
+    <string name="Polski">Polski</string>
+    <string name="English">English</string>
+    <string name="send">Wyślij</string>
+    <string name="type_a_message">Wpisz swoją wiadomość...</string>
+    <string name="language">Język aplikacji</string>
+    <string name="welcome">Cześć! Jestem Chatbot Charlotte, w czym mogę pomóc?</string>
+</resources>
