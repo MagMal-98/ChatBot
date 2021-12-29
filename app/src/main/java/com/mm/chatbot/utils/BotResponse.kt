@@ -3,6 +3,7 @@ package com.mm.chatbot.utils
 import java.sql.Date
 import java.sql.Timestamp
 import java.text.SimpleDateFormat
+import java.util.*
 
 object BotResponse {
 
@@ -254,12 +255,23 @@ object BotResponse {
 
             //When the programme doesn't understand...
             else -> {
+                val lang = Locale.getDefault().language
+                if (lang == "pl"){
+                    when (random) {
+                        0 -> "Niestety, nie rozumiem..."
+                        1 -> "Zapytaj mnie o coś innego"
+                        2 -> "Nwm"
+                        else -> "error"
+                    }
+                } else {
                 when (random) {
                     0 -> "I don't understand..."
                     1 -> "Try asking me something different"
                     2 -> "Idk"
                     else -> "error"
                 }
+                }
+
             }
         }
     }
